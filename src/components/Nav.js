@@ -1,18 +1,18 @@
-import React,{useEffect} from 'react'
+import React,{useEffect,useState} from 'react'
 import SocialIconsMood from './SocialIconsMood/SocialIconsMood'
 import './Nav.css'
 import { NavLink } from 'react-router-dom'
 
 const Nav = () => {
-  
+
+  const [dark,setDark] = useState(false);
   useEffect(()=>{
-    const MoodItem = document.querySelector('.mood-item');
+    
     const BodyVery = document.querySelector('#body1');
-    MoodItem.addEventListener('click', ()=>{
-    BodyVery.classList.toggle('mood');
+    
+    BodyVery.classList.toggle('mood',dark);
        
-    });
-  },[]);
+  },[dark]);
  
   
   return (
@@ -27,11 +27,15 @@ const Nav = () => {
             <li>Service</li>
             <li>Portafolio</li>
             <li>Contact me</li>
-            <li className='mood-item'><SocialIconsMood/></li>
+            <li className='mood-item' onClick={()=> setDark(!dark)}><SocialIconsMood/></li>
         </ul>
     </nav>
   )
 }
+
+
+
+
 
 export default Nav
 
