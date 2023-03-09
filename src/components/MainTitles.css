@@ -1,0 +1,51 @@
+section{
+    margin-top: 6rem;
+}
+
+.section-titles{
+    line-height: 0;
+}
+
+.section-titles h1{
+    font-size: 4rem;
+    transition: color 1s;
+}
+
+.section-titles h5{
+    font-size: 1.5rem;
+    color: rgb(106, 98, 98);
+    font-weight: 400;
+    transition: color 1s;
+}
+
+section p{
+    font-size: 1rem;
+    max-width: 350px;
+    color: gray;
+    transition: color 1s;
+}
+
+section button{
+    padding: 18px 25px;
+    border: none;
+    background-color: rgb(39, 39, 186);
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.1rem;
+    border-radius: 25px;
+}
+
+.mood .section-titles h1{
+    color: #788cc1;
+}
+
+.mood .section-titles h5{
+    color: white;
+}
+
+.mood section p{
+    color:white;
+}
+

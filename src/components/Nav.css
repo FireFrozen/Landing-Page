@@ -1,0 +1,42 @@
+
+nav ul li{
+    display: inline-block;
+    margin: 1rem;
+    list-style: none;
+    transition: color 300ms;
+    cursor: pointer;
+}
+
+nav ul li:hover{
+    color: rgb(24, 24, 181);
+}
+
+nav ul li a.active{
+    display: inline-block;
+    margin: 1rem;
+    list-style: none;
+    transition: color 300ms;
+    cursor: pointer;
+    color: black;
+    text-decoration-line: none;
+}
+
+nav ul li a.active:hover{
+    color: rgb(24, 24, 181);
+}
+
+.mood-item{
+    font-size: 1.5rem;
+}
+
+.mood{
+    background-color: #141a37;
+}
+
+.mood nav ul li{
+    color: #788cc1;
+}
+
+.mood nav ul li a.active{
+    color: #788cc1;
+}
