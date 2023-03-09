@@ -7,12 +7,12 @@ const Nav = () => {
   
   useEffect(()=>{
     const MoodItem = document.querySelector('.mood-item');
-    const BodyVery = document.querySelector('#body');
+    const BodyVery = document.querySelector('#body1');
     MoodItem.addEventListener('click', ()=>{
     BodyVery.classList.toggle('mood');
        
     });
-  });
+  },[]);
  
   
   return (
