@@ -4,7 +4,7 @@ import './MainTitles.css'
 
 const MainTitles = () => {
   return (
-    <section>
+    <section className='titles'>
       <div className='section-titles'>
         <h1>Hi, I'm Alejandro</h1>
         <h5>Frontend developer</h5>

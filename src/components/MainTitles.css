@@ -1,14 +1,23 @@
+.titles{
+    border: 1px solid;
+    }
+
 section{
     margin-top: 6rem;
 }
 
 .section-titles{
     line-height: 0;
+    
+    
 }
 
 .section-titles h1{
     font-size: 4rem;
     transition: color 1s;
+    display: flex;
+    
+
 }
 
 .section-titles h5{
@@ -16,6 +25,8 @@ section{
     color: rgb(106, 98, 98);
     font-weight: 400;
     transition: color 1s;
+    display: flex;
+    
 }
 
 section p{
