@@ -16,7 +16,7 @@ const Nav = () => {
  
   
   return (
-    <nav>
+    <nav className='nav-app'>
         
         <ul>
             <li><NavLink to="/" className="active" >Home</NavLink></li>
